@@ -1,0 +1,180 @@
+body { 
+    margin:0;
+    padding:0;
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+
+a { 
+    color:#00abff;
+    text-decoration:none; 
+}
+
+li {
+    list-style: none;
+}
+
+
+
+/* MENU */
+
+.menu-bg{
+    background-color: #2c70ff;
+}
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: white
+}
+
+.menu-logo a {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+.menu-nav a:hover {
+    color: #122ab2;
+}
+
+p.date { 
+    color:#ccc;
+    font-family: georgia, serif;
+    font-size: 12px;
+    font-style: italic; 
+}
+
+/* pagination */
+.pagination { 
+    margin:40px 0; 
+    font-weight:bold;
+}
+
+/* forms */
+label { 
+    float:left;
+    clear:both;
+    color:#333;
+    margin-bottom:4px; 
+}
+input, textarea { 
+    clear:both;
+    float:left;
+    margin:0 0 10px;
+    background:#ededed;
+    border:0;
+    padding:6px 10px;
+    font-size:12px;
+}
+input[type=submit] {
+    font-weight:bold;
+    background:#00abff;
+    color:#fff;
+    padding:10px 20px;
+    font-size:14px;
+    text-transform:uppercase; 
+}
+.errorlist { 
+    color:#cc0033;
+    float:left;
+    clear:both;
+    padding-left:10px; 
+}
+
+/* comments */
+.comment {
+    padding:10px;
+}
+.comment:nth-child(even) {
+    background:#efefef;
+}
+.comment .info {
+    font-weight:bold;
+    font-size:12px;
+    color:#666;
+}
+
+section {
+    margin: 20px auto;
+    width: 70%;
+    min-width: unset;
+    max-width: 960px;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+article {
+    padding: 20px;
+    margin: 10px;
+    flex: 2 200px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+article h2 {
+    text-align: center;
+    
+}
+
+.container {
+    margin-top: 20px;
+}
+
+
+.p-tags {
+    margin-bottom: 10px;
+}
+
+.p-conteudo {
+    padding: 20px;
+}
+.p-tags, .p-date {
+    color: #122ab2;
+    text-align: right;
+}
+
+.detalhe {
+    max-width: 500px;
+    flex: 1 1 800px;
+    margin: 40px;
+    
+}
+.post-recomendados {
+    margin: 10px auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.sidebar {
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 35px;
+    padding: 10px;
+}
+
+.sidebar li {
+    list-style: square;
+}
